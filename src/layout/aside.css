@@ -1,0 +1,9 @@
+.inner-aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #1E213B;
+    width: 100px;
+    border-radius: 0px 20px 20px 0px;
+}
