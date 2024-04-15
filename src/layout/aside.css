@@ -6,4 +6,32 @@
     background-color: #1E213B;
     width: 100px;
     border-radius: 0px 20px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.inner-aside .account{
+    width: 100%;
+    padding: 25px 0;
+    border-top: 1px solid #ccc;
+}
+
+.inner-aside .account .circle {
+    position: relative;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    margin: auto;
+    
+}
+
+.inner-aside .account .circle img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 25px;
 }

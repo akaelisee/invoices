@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 import Aside from './layout/Aside';
 
 function App() {
@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <div className='container'>
         <Aside />
-        <div>
-          Elisee
+        <div className='wrapper'>
+          lorem
         </div>
       </div>
     </div>
